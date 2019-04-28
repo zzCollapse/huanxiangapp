@@ -1,0 +1,80 @@
+/* 头部首页部分 */
+.toubu{
+    width: 100%;
+    height: 4.142857rem;
+    background: #fe6700;
+    position: relative;
+}
+/* 头部首页文字 */
+.toubu>em{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 4rem;
+    color: #fff;
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(1){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: rgba(255,255,255,0.6);
+    border-radius: 50%;
+    position: absolute;
+    left: 6.714285rem;
+    top: 1.857142rem;
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(2){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 7.857142rem;
+    top: 1.857142rem;
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(3){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: rgba(255,255,255,0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 6.714285rem;
+    top: 1.857142rem;
+
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(4){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 7.857142rem;
+    top: 1.857142rem;
+}
+.mui-slider-item>i{
+    display: block;
+    width: 21.285714rem;
+    height: 10.571428rem;
+    margin-left:1.2rem;
+    background: url(../img/lunbo.jpg)no-repeat;
+    border-radius: 0.571428rem;
+    margin-top: 1.742857rem;
+    background-size: 35rem 16.857142rem;
+    background-position: -4.857142rem -0.857142rem;
+}
+.mui-input-row,.mui-search{
+    width: 80%;
+    margin-top: -1rem;
+    margin-left: 2.571428rem;
+}
+.mui-input-clear{
+    background: #FFFFFF !important;
+}

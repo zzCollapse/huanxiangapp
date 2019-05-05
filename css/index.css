@@ -8,7 +8,7 @@
 /* 头部首页文字 */
 .toubu>em{
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     text-align: center;
     line-height: 4rem;
@@ -66,15 +66,217 @@
     margin-left:1.2rem;
     background: url(../img/lunbo.jpg)no-repeat;
     border-radius: 0.571428rem;
-    margin-top: 1.742857rem;
     background-size: 35rem 16.857142rem;
     background-position: -4.857142rem -0.857142rem;
 }
+/* input输入框 */
 .mui-input-row,.mui-search{
     width: 80%;
     margin-top: -1rem;
     margin-left: 2.571428rem;
 }
+/* input输入框背景颜色 */
 .mui-input-clear{
     background: #FFFFFF !important;
+    color: #FE6700;
+}
+/* input输入框里面的搜索图标颜色 */
+.mui-icon-search:before{
+    color: #FE6700;
+    font-weight: 500;
+}
+/* input输入框里面的搜索图标移位之后的颜色 */
+.mui-search.mui-active:before{
+    color: #FE6700;
+}
+/* 早中晚宵夜四餐的按钮*/
+.anniu{
+    overflow: hidden;
+}
+.anniu>div{
+    float: left;
+}
+/* 早餐 */
+.zaocan{
+    margin-top: 1.857142rem;
+    margin-left: 1.157142rem;
+}
+.zaocan>a{
+    display: block;
+    width: 4.571428rem;
+    height: 4.571428rem;
+    background: #fb4264;
+    border-radius: 50%;
+}
+/* 早餐里面的白色图标 */
+.zaocan>a>img{
+    padding-left: 0.87rem;
+    padding-top: 1rem;
+}
+/* 早餐图标下面的文字 */
+.zaocan>p{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding-top: 0.542857rem;
+}
+/* 早中晚宵夜四餐的按钮*/
+.anniu>div{
+    float: left;
+}
+/* 午餐 */
+.wucan{
+    margin-top: 1.857142rem;
+    margin-left: 1.057142rem;
+}
+.wucan>a{
+    display: block;
+    width: 4.571428rem;
+    height: 4.571428rem;
+    background: #326bf1;
+    border-radius: 50%;
+}
+/* 午餐里面的白色图标 */
+.wucan>a>img{
+    padding-left: 1.15rem;
+    padding-top: 1rem;
+}
+/* 午餐图标下面的文字 */
+.wucan>p{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding-top: 0.542857rem;
+}
+/* 晚餐 */
+.wancan{
+    margin-top: 1.857142rem;
+    margin-left: 1.057142rem;
+}
+.wancan>a{
+    display: block;
+    width: 4.571428rem;
+    height: 4.571428rem;
+    background: #f6cd28;
+    border-radius: 50%;
+}
+/* 晚餐里面的白色图标 */
+.wancan>a>img{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+/* 晚餐图标下面的文字 */
+.wancan>p{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding-top: 0.542857rem;
+}
+/* 宵夜 */
+.xiaoye{
+    margin-top: 1.857142rem;
+    margin-left: 1.057142rem;
+}
+.xiaoye>a{
+    display: block;
+    width: 4.571428rem;
+    height: 4.571428rem;
+    background: #b62dfd;
+    border-radius: 50%;
+}
+/* 宵夜里面的白色图标 */
+.xiaoye>a>img{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+/* 宵夜图标下面的文字 */
+.xiaoye>p{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding-top: 0.542857rem;
+}
+/* 食物菜单 */
+.shiwucaidan>h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 1.71428rem;
+    margin-bottom: 1.71428rem;
+}
+/* 食物菜单里面的div浮动 */
+.shiwucaidan>div{
+    float: left;
+}
+/* 食物菜单下面的新手菜单 */
+.xinshoucaidan{
+    width: 10.28571rem;
+    height: 6.514285rem;
+    background: url(../img/beijing1.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0.285714rem;
+    margin-left: 0.8rem;
+}
+/* 食物菜单下面的素食天下 */
+.sushitianxia{
+    width: 10.28571rem;
+    height: 6.514285rem;
+    background: url(../img/beijing2.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0.285714rem;
+    margin-left: 1.142857rem;
+}
+/* 食物菜单下面的营养汤汁 */
+.yinyangtangzhi{
+    width: 10.28571rem;
+    height: 6.514285rem;
+    background: url(../img/beijing3.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0.285714rem;
+    margin-left: 0.8rem;
+    margin-top: 1.142857rem;
+}
+/* 食物菜单下面的热爱生活 */
+.reaishenghuo{
+    width: 10.28571rem;
+    height: 6.514285rem;
+    background: url(../img/beijing4.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0.285714rem;
+    margin-left: 1.142857rem;
+    margin-top: 1.142857rem;
+}
+/* 新手菜单里面的图片 */
+.xinshoucaidan>img{
+    width: 3.428571rem;
+    height: 4.428571rem;
+    margin-left: 6.42857rem;
+    margin-top: -2rem;
+}
+/* 素食天下里面的图片 */
+.sushitianxia>img{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 6rem;
+}
+/* 营养汤汁里面的图片 */
+.yinyangtangzhi>img{
+    width: 3rem;
+    height: 4rem;
+    margin-left: 6rem;
+    margin-top: -0.4rem;
+}
+/* 热爱生活里面的图片 */
+.reaishenghuo>img{
+    width: 3rem;
+    height: 4rem;
+    margin-left: 6rem;
+    margin-top: -1rem;
+}
+/* 新手菜单里面的a标签 */
+.xinshoucaidan>a{
+    display: block;
+    font-size: 24px;
+    color: #f77154;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }

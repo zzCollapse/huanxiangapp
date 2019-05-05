@@ -2,38 +2,109 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>huanxiang</title>
         <link rel="stylesheet" type="text/css" href="css/index.css"/>
         <link rel="stylesheet" type="text/css" href="dist/css/mui.css"/>
         <script type="text/javascript" src="dist/js/mui.js"></script>
 	</head>
 	<body>
-        <div class="quanju">
-            <div class="toubu">
-                <i></i>
-                <i></i>
-                <em>首页</em>
-                <i></i>
-                <i></i>
-            </div>
-            <div class="mui-input-row mui-search">
-                <input type="search" class="mui-input-clear" placeholder="">
-            </div>
-            <div class="mui-slider">
-                <div class="mui-slider-group">
-                <!--第一个内容区容器-->
-                <div class="mui-slider-item">
-                <!-- 具体内容 -->
-                    <i></i>
+        <!-- 主界面不动、菜单移动 -->
+          <!-- 主页面容器 -->
+          <div class="mui-inner-wrap">
+            <nav class="mui-bar mui-bar-tab">
+                <a class="mui-tab-item mui-active">
+                    <span class="mui-icon mui-icon-home"></span>
+                    <span class="mui-tab-label"></span>
+                </a>
+                <a class="mui-tab-item">
+                    <span class="mui-icon mui-icon-phone"></span>
+                    <span class="mui-tab-label"></span>
+                </a>
+                <a class="mui-tab-item">
+                    <span class="mui-icon mui-icon-email"></span>
+                    <span class="mui-tab-label"></span>
+                </a>
+                <a class="mui-tab-item">
+                    <span class="mui-icon mui-icon-gear"></span>
+                    <span class="mui-tab-label"></span>
+                </a>
+            </nav>
+            <div class="mui-content mui-scroll-wrapper">
+              <div class="mui-scroll">
+                <!-- 主界面具体展示内容 -->
+                <div class="quanju">
+                    <div class="toubu">
+                        <i></i>
+                        <i></i>
+                        <em>首页</em>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <div class="mui-input-row mui-search">
+                        <input type="search" class="mui-input-clear" placeholder="">
+                    </div>
+                    <div class="mui-slider">
+                        <div class="mui-slider-group">
+                            <!--第一个内容区容器-->
+                            <div class="mui-slider-item">
+                            <!-- 具体内容 -->
+                                <i></i>
+                            </div>
+                            <!--第二个内容区-->
+                            <div class="mui-slider-item">
+                            <!-- 具体内容 -->
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="anniu">
+                        <div class="zaocan">
+                            <a href="#"><img src="img/zaocan.png" ></a>
+                            <p>早餐</p>
+                        </div>
+                        <div class="wucan">
+                            <a href="#"><img src="img/wucan.png" ></a>
+                            <p>午餐</p>
+                        </div>
+                        <div class="wancan">
+                            <a href="#"><img src="img/wancan.png" ></a>
+                            <p>晚餐</p>
+                        </div>
+                        <div class="xiaoye">
+                            <a href="#"><img src="img/xiaoye.png" ></a>
+                            <p>宵夜</p>
+                        </div>
+                    </div>
+                    <div class="shiwucaidan">
+                        <h3>食物菜单</h3>
+                        <div class="xinshoucaidan">
+                            <a href="#">新手菜单</a>
+                            <p>一日三餐有营养</p>
+                            <img src="img/xinshoucaidan.png" >
+                        </div>
+                        <div class="sushitianxia">
+                            <a href="#">素食天下</a>
+                            <p>清清淡淡才是真</p>
+                            <img src="img/sushitianxia.png" >
+                        </div>
+                        <div class="yinyangtangzhi">
+                            <a href="#">营养汤汁</a>
+                            <p>真材实料高营养</p>
+                            <img src="img/yinyangtangzhi.png" >
+                        </div>
+                        <div class="reaishenghuo">
+                            <a href="#">热爱生活</a>
+                            <p>你知道你有多棒吗？</p>
+                            <img src="img/reaishenghuo.png" >
+                        </div>
+                    </div>
+                    
                 </div>
-                <!--第二个内容区-->
-                <div class="mui-slider-item">
-                <!-- 具体内容 -->
-                    <i></i>
-                </div>
-                </div>
-                </div>
+              </div>
+            </div>  
+            <div class="mui-off-canvas-backdrop"></div>
+          </div>
         </div>
 	</body>
 </html>

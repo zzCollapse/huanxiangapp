@@ -6,44 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <title>xinshoucaidan</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/xinshoucaidan.css"/>
     <link rel="stylesheet" type="text/css" href="dist/css/mui.css"/>
     <script type="text/javascript" src="dist/js/mui.js"></script>
 </head>
 <body>
-     <!-- 主界面不动、菜单移动 -->
+    <!--菜单不动 - 主界面移动、->
+    <div class="mui-off-canvas-wrap mui-draggable">
       <!-- 主页面容器 -->
       <div class="mui-inner-wrap">
         <nav class="mui-bar mui-bar-tab">
             <a class="mui-tab-item mui-active">
                 <span class="mui-icon mui-icon-home"></span>
-                <span class="mui-tab-label"></span>
             </a>
             <a class="mui-tab-item">
-                <span class="mui-icon mui-icon-phone"></span>
-                <span class="mui-tab-label"></span>
+                <span class="mui-icon mui-icon-bars"></span>
             </a>
             <a class="mui-tab-item">
-                <span class="mui-icon mui-icon-email"></span>
-                <span class="mui-tab-label"></span>
+                <span class="mui-icon mui-icon-map"></span>
             </a>
             <a class="mui-tab-item">
-                <span class="mui-icon mui-icon-gear"></span>
-                <span class="mui-tab-label"></span>
+                <span class="mui-icon mui-icon-person"></span>
             </a>
         </nav>
         <div class="mui-content mui-scroll-wrapper">
-          <div class="mui-scroll">
+            <div class="mui-scroll">
             <!-- 主界面具体展示内容 -->
-            <div class="quanju">
-                123321
+                 <div class="quanju">
+                     <div class="toubu">
+                         <a href="index.html" class="mui-icon mui-icon-back"></a>
+                         <h1>新手菜单</h1>
+                         <p>一日三餐有营养</p>
+                         <img src="img/xinshoucaidan.png" >
+                     </div>
+                     <div class="neirongbufen">
+                        <div class="neirong1">
+                            <img src="img/neirong1.png" >
+                            <a href="jieshao.html">番茄肉酱意大利面</a>
+                            <p>具有高密度、高蛋白质、高筋度等特点，耐煮、口感好。</p>
+                            <img src="img/wuxin.png" class="wuxinimg">
+                            
+                        </div>
+                        <div class="neirong1">
+                            <img src="img/neirong1.png" >
+                            <a href="jieshao.html">番茄肉酱意大利面</a>
+                            <p>具有高密度、高蛋白质、高筋度等特点，耐煮、口感好。</p>
+                            <img src="img/wuxin.png" class="wuxinimg">
+                            
+                        </div>
+                        <div class="neirong1">
+                            <img src="img/neirong1.png" >
+                            <a href="jieshao.html">番茄肉酱意大利面</a>
+                            <p>具有高密度、高蛋白质、高筋度等特点，耐煮、口感好。</p>
+                            <img src="img/wuxin.png" class="wuxinimg">
+                            
+                        </div>
+                        <div class="neirong1">
+                            <img src="img/neirong1.png" >
+                            <a href="jieshao.html">番茄肉酱意大利面</a>
+                            <p>具有高密度、高蛋白质、高筋度等特点，耐煮、口感好。</p>
+                            <img src="img/wuxin.png" class="wuxinimg">
+                            
+                        </div>
+                        <div class="neirong1">
+                            <img src="img/neirong1.png" >
+                            <a href="jieshao.html">番茄肉酱意大利面</a>
+                            <p>具有高密度、高蛋白质、高筋度等特点，耐煮、口感好。</p>
+                            <img src="img/wuxin.png" class="wuxinimg">
+                            
+                        </div>
+                     </div>
+                         
+                 </div>
             </div>
-                
-            </div>
-          </div>
-        </div>  
+        </div> 
         <div class="mui-off-canvas-backdrop"></div>
-      </div>
+      </div> 
     </div>
 </body>
+<script type="text/javascript">
+    mui('.mui-scroll-wrapper').scroll({
+	deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+});
+</script>
 </html>

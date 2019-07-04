@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+        <link rel="stylesheet" type="text/css" href="dist/css/mui.css"/>
+        <script type="text/javascript" src="dist/js/mui.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<title>zhuce</title>
+	</head>
+	<body>
+        <div class="quanju">
+            <div class="wenzi">
+                <a href="denglu.html" class="mui-icon mui-icon-back"></a>
+                <p>欢迎小吃货</p>
+            </div>
+            <div class="shurukuang">
+                <input type="text" name="" maxlength="11" placeholder="请输入手机号" oninput="value=value.replace(/[^\d]/g,'')">
+                <input type="text" name="verifiyCode" placeholder="请输入验证码" maxlength="5" oninput="value=value.replace(/[^\d]/g,'')">
+                <button class="getCode">获取验证码</button>
+                <input type="text" name="" maxlength="11" placeholder="请输入密码" oninput="value=value.replace(/[^\d]/g,'')">
+            </div>
+            <div class="dengluzhuce">
+                <a href="denglu.html">注册</a>
+            </div>
+            <img src="img/dibutupian.png" class="dibutupian">
+
+        </div>
+        
+	</body>
+    <script type="text/javascript">
+        $(".getCode").on("click",function(){
+            time(this);
+        });
+        //验证码倒计时
+        var wait = 60;
+        function time(obj) {
+            if(wait==0) {
+            $(".getCode").removeAttr("disabled");
+            $(".getCode").text("获取验证码");
+            wait = 60;
+        }else {
+            $(".getCode").attr("disabled","true");
+            $(".getCode").text(wait+"秒后重试");
+            wait--;
+            setTimeout(function() { //倒计时方法
+                time(obj);
+            },1000);    //间隔为1s
+          }
+        }
+    </script>
+</html>

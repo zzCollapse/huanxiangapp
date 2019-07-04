@@ -257,20 +257,21 @@
     width: 3rem;
     height: 3rem;
     margin-left: 6rem;
+    margin-top: -1rem;
 }
 /* 营养汤汁里面的图片 */
 .yinyangtangzhi>img{
     width: 3rem;
     height: 4rem;
     margin-left: 6rem;
-    margin-top: -0.4rem;
+    margin-top: -1.4rem;
 }
 /* 热爱生活里面的图片 */
 .reaishenghuo>img{
     width: 3rem;
     height: 4rem;
-    margin-left: 6rem;
-    margin-top: -1rem;
+    margin-left: 6.7rem;
+    margin-top: -1.7rem;
 }
 /* 新手菜单里面的a标签 */
 .xinshoucaidan>a{
@@ -278,5 +279,61 @@
     font-size: 24px;
     color: #f77154;
     margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* 新手菜单里面的p标签 */
+.xinshoucaidan>p{
+    display: block;
+    font-size: 15px;
+    color: #f77154;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+/* 素食天下里面的a标签 */
+.sushitianxia>a{
+    display: block;
+    font-size: 24px;
+    color: #5ac174;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* 素食天下里面的p标签 */
+.sushitianxia>p{
+    display: block;
+    font-size: 15px;
+    color: #5ac174;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+/* 营养汤汁里面的a标签 */
+.yinyangtangzhi>a{
+    display: block;
+    font-size: 24px;
+    color: #9a4ee6;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* 营养汤汁里面的p标签 */
+.yinyangtangzhi>p{
+    display: block;
+    font-size: 15px;
+    color: #9a4ee6;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+/* 热爱生活里面的a标签 */
+.reaishenghuo>a{
+    display: block;
+    font-size: 24px;
+    color: #fc4ebb;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+/* 热爱生活里面的p标签 */
+.reaishenghuo>p{
+    display: block;
+    font-size: 15px;
+    color: #fc4ebb;
+    margin-top: 0.3rem;
     margin-left: 1rem;
 }

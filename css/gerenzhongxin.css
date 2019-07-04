@@ -1,0 +1,155 @@
+/* 头部首页部分 */
+.toubu{
+    width: 100%;
+    height: 10.571428rem;
+    background: url(../img/toubu.png);
+    background-size: 100% 100%;
+    position: relative;
+    z-index: -1;
+}
+/* 头部首页文字 */
+.toubu>em{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 4rem;
+    color: #fff;
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(1){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: rgba(255,255,255,0.6);
+    border-radius: 50%;
+    position: absolute;
+    left: 6.714285rem;
+    top: 1.857142rem;
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(2){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 7.857142rem;
+    top: 1.857142rem;
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(3){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: rgba(255,255,255,0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 6.714285rem;
+    top: 1.857142rem;
+
+}
+/* 头部首页四个小点 */
+.toubu>i:nth-of-type(4){
+    display: block;
+    width: 0.428571rem;
+    height: 0.428571rem;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 7.857142rem;
+    top: 1.857142rem;
+}
+/* 头部里面的头像的图片 */
+.touxiang>img{
+    width: 4.428571rem;
+    height: 4.428571rem;
+    border-radius: 50%;
+    box-shadow:5px 5px 20px #fd7200;
+    margin-left:2rem;
+    float: left;
+}
+/* 头部里面的头像的文字 */
+.touxiang>p{
+    display: block;
+    color: #FFFFFF;
+    line-height: 4.428571rem;
+    margin-left: 7.142857rem;
+    font-size: 18px;
+}
+/* 关注栏 */
+.guanzhulan{
+    width: 22rem;
+    height: 6rem;
+    border-radius: 1.142857rem;
+    background: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+    z-index: 1;
+    box-shadow: 5px 5px 15px #dcdcdc;
+    overflow: hidden;
+}
+/* 关注栏下面的三个div的浮动 */
+.guanzhu,.dianzan,.fensi{
+    float: left;
+}
+/* 关注栏里面的p标签和span标签 */
+.guanzhulan p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fe6400;
+}
+.guanzhulan>span{
+    color: #333333;
+    font-size: 20px;
+}
+/* 关注栏里面的关注div */
+.guanzhu{
+    margin-left: 3rem;
+    margin-top: 1.571428rem;
+    text-align: center;
+}
+/* 关注栏里面的点赞div */
+.dianzan{
+    margin-left: 4.7rem;
+    margin-top: 1.571428rem;
+    text-align: center;
+}
+/* 关注栏里面的粉丝div */
+.fensi{
+    margin-left: 4.57rem;
+    margin-top: 1.571428rem;
+    text-align: center;
+}
+/* 导航按钮的浮动 */
+.daohanganniu>div{
+    float: left;
+    margin-top: 2.857142rem;
+    margin-left: 2.857142rem;
+}
+/* 导航按钮的按钮 */
+.zuji>img{
+    width: 2.085714rem;
+    height: 2.6rem;
+}
+.caidan>img{
+    width: 2.3rem;
+    height: 2.63rem;
+}
+.xiaoxi>img{
+    width: 2.3rem;
+    height: 2.63rem;
+}
+.shezhi>img{
+    width: 2.63rem;
+    height: 2.63rem;
+}
+/* 导航按钮里面的文字 */
+.daohanganniu>div>p{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 1.142857rem;
+    text-align: center;
+}    

@@ -18,15 +18,15 @@
                     <span class="mui-tab-label"></span>
                 </a>
                 <a class="mui-tab-item">
-                    <span class="mui-icon mui-icon-phone"></span>
+                    <span class="mui-icon mui-icon-bars"></span>
                     <span class="mui-tab-label"></span>
                 </a>
                 <a class="mui-tab-item">
-                    <span class="mui-icon mui-icon-email"></span>
+                    <span class="mui-icon mui-icon-map"></span>
                     <span class="mui-tab-label"></span>
                 </a>
                 <a class="mui-tab-item">
-                    <span class="mui-icon mui-icon-gear"></span>
+                    <span class="mui-icon mui-icon-person"></span>
                     <span class="mui-tab-label"></span>
                 </a>
             </nav>
@@ -79,22 +79,22 @@
                     <div class="shiwucaidan">
                         <h3>食物菜单</h3>
                         <div class="xinshoucaidan">
-                            <a href="#">新手菜单</a>
+                            <a href="xinshoucaidan.html">新手菜单</a>
                             <p>一日三餐有营养</p>
                             <img src="img/xinshoucaidan.png" >
                         </div>
                         <div class="sushitianxia">
-                            <a href="#">素食天下</a>
+                            <a href="sushitianxia.html">素食天下</a>
                             <p>清清淡淡才是真</p>
                             <img src="img/sushitianxia.png" >
                         </div>
                         <div class="yinyangtangzhi">
-                            <a href="#">营养汤汁</a>
+                            <a href="yinyangtangzhi.html">营养汤汁</a>
                             <p>真材实料高营养</p>
                             <img src="img/yinyangtangzhi.png" >
                         </div>
                         <div class="reaishenghuo">
-                            <a href="#">热爱生活</a>
+                            <a href="reaishenghuo.html">热爱生活</a>
                             <p>你知道你有多棒吗？</p>
                             <img src="img/reaishenghuo.png" >
                         </div>
@@ -107,4 +107,9 @@
           </div>
         </div>
 	</body>
+    <script type="text/javascript">
+        mui('.mui-scroll-wrapper').scroll({
+    	deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+    });
+    </script>
 </html>

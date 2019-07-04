@@ -1,0 +1,75 @@
+/* 页面背景色 */
+.mui-ios,.mui-ios-11,.mui-ios-11-0{
+    background: #FFFFFF;
+}
+.quanjuA{
+    width: 100%;
+}
+/* "欢迎小吃货"打文字 */
+.wenzi>p:nth-of-type(1){
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30%;
+    color: #333333;
+}
+/* 输入框 */
+.shurukuang{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+/* 手机号输入框 */
+.shurukuang>input:nth-of-type(1){
+    border: none;
+    width: 80%;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 16px;
+}
+/* 验证码输入框 */
+.shurukuang>input:nth-of-type(2){
+    border: none;
+    width: 80%;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 16px;
+    margin-top: 0.571428rem;
+}
+/* 获取验证码按钮 */
+.shurukuang>button{
+    display: block;
+    border-radius: 50px;
+    float: right;
+    font-size: 11px;
+    margin-top: -3rem;
+    margin-right: 2rem;
+}
+/* 登录注册 */
+.dengluzhuce>a:nth-of-type(1){
+    display: block;
+    width: 63%;
+    height: 2.57rem;
+    line-height: 2.57rem;
+    background: #EEEEEE;
+    margin: 0 auto;
+    text-align: center;
+    color: #9c9c9c;
+    border-radius: 50px;
+    margin-top: 2.142857rem;
+}
+.dengluzhuce>a:nth-of-type(2){
+    display: block;
+    width: 63%;
+    height: 2.57rem;
+    line-height: 2.57rem;
+    margin: 0 auto;
+    text-align: center;
+    color: #fe9f46;
+}
+/* 底部图片 */
+.dibutupian{
+    width: 100%;
+    height: 35%;
+    position: fixed;
+    bottom: 0rem;
+}

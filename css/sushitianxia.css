@@ -1,0 +1,77 @@
+/* 返回图标颜色和大小 */
+.mui-icon-back:before, .mui-icon-left-nav:before{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+/* 这是头部的背景图和背景图大小 */
+.toubu{
+    background: url(../img/beijing01.png)no-repeat;
+    background-size: 100% 100%;
+}
+/* 头部里面的文字设置 */
+.toubu>h1{
+    color: #5ac174;
+    font-size: 28px;
+    margin-left: 2.142857rem;
+    margin-top: 1.142857rem;
+}
+.toubu>p{
+    color: #5ac174;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2.142857rem;
+    margin-top: 1.142857rem;
+}
+/* 头部里面的img */
+.toubu>img{
+    margin-left: 17.428571rem;
+    margin-top: -4.571428rem;
+    padding-bottom: 1.142857rem;
+}
+/* 中间内容部分 */
+.neirongbufen{
+    width: 100%;
+    height: auto;
+    background: #fefefe;
+    border-radius: 0.85714rem;
+    margin-top: -1rem;
+    overflow: hidden;
+}
+/* 中间内容块 */
+.neirong1{
+    width: 20rem;
+    height: 6.571428rem;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 0.571428rem;
+    box-shadow: 0px 0 20px 0 #cccccc;
+    margin-top: 1.428571rem;
+    margin-bottom: 2.857142rem;
+    overflow: hidden;
+}
+/* 中间块里面的图片 */
+.neirong1>img{
+    width: 9rem;
+    height: 100%;
+    float: left;
+}
+/* 中间块里面的文字 */
+.neirong1>a{
+    display: inline-block;
+    color: #333333;
+    font-size: 16px;
+    margin-top: 0.571428rem;
+    margin-left: 0.857142rem;
+}
+.neirong1>p{
+    display: block;
+    font-size: 12px;
+    margin-left: 9.857142rem;
+}
+/* div里面的五星好评 */
+.wuxinimg{
+    width: 8.285714rem !important;
+    height: 1.428571rem !important;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+}
